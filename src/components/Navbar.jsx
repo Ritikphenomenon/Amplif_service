@@ -9,7 +9,7 @@ export const Navbar = () => {
 
   return (
     <nav className='fixed top-2 left-10 right-10'>
-<div className="navbar mt-5 ml-10 mr-10 flex justify-between items-center bg-gray-500 h-12 rounded-md border border-gray-400">
+<div className="navbar mt-5 ml-10 mr-10 flex justify-between items-center bg-white/30 h-12 rounded-md border border-gray-400">
         <div className="flex items-center ml-3">
           <img src="./src/assets/amplif_logo.png" alt="Amplif Logo" className="h-8 mr-2" />
         </div>
