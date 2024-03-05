@@ -4,8 +4,8 @@ export const Hero = () => {
       className="bg-cover bg-center h-screen flex items-center px-6 gap-10"
       style={{ backgroundImage: "url('./src/assets/Rectangle_full.png')" }}
     >
-      <div className="bg-white/10 backdrop-blur-md flex flex-col items-center justify-around p-4 text-white rounded-xl h-64  w-140 grow">
-        <h1 className="text-yellow-600 text-3xl font-bold text-4xl">
+      <div className="bg-white/10 backdrop-blur-md flex flex-col items-center justify-around p-4 text-white rounded-3xl h-64   grow">
+        <h1 className="text-yellow-600 text-5xl font-bold ">
           Explore Our Expert Solution
         </h1>
         <div className="space-x-1 grid grid-cols-2 gap-10">

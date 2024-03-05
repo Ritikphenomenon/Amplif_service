@@ -1,8 +1,8 @@
 export const Linkendin = () => {
     return (
-        <div className="flex bg-blue-50">
+        <div className="flex justify-center bg-blue-50">
             {/* Left side */}
-            <div className="w-1/2 p-8">
+            <div className=" p-8">
                 <h1 className="text-blue-400 text-3xl font-bold mb-4">Linkendln Ads</h1>
                 <p className="text-black mb-4 font-bold">
                     What we offer:
@@ -18,7 +18,7 @@ export const Linkendin = () => {
             </div>
 
             {/* Right side - Image */}
-            <div className="w-1/2 flex items-center justify-center">
+            <div className=" flex items-center justify-center">
                 <img src="./src/assets/add/linkendin_add.png" alt="Google Ads Image" className="max-w-full h-auto" />
             </div>
         </div>
